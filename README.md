@@ -17,7 +17,7 @@ Once the PDF text is extracted, it needs to be processed using LangChain’s too
 #### STEP 4: User Interaction
 Allow the user to input questions and receive responses based on the content extracted from the PDF document. The user will interact with the chatbot by entering questions, and the bot will provide answers based on the document’s content.
 ### PROGRAM:
-```
+```py
 import PyPDF2
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import QuestionAnsweringChain
